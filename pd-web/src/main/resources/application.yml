@@ -3,7 +3,7 @@ server:
 
 spring:
     rabbitmq:
-      host: 192.168.164.136
+      host: 192.168.96.138
       port: 5672
       virtualHost: /pd
       username: admin
@@ -15,9 +15,9 @@ spring:
         url: jdbc:mysql://127.0.0.1:3306/pd_store?useUnicode=true&characterEncoding=UTF-8
         username: root
         password: root
-    data:
-      solr:
-        host: http://192.168.96.135:8983/solr/pd
+#    data:
+#      solr:
+#        host: http://192.168.96.138:8983/solr/pd
  
 mybatis:
   #typeAliasesPackage: cn.tedu.ssm.pojo
